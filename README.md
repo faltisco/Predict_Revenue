@@ -12,7 +12,7 @@ Kaggle's Playground Prediction Competition "TMDB Box Office Prediction" closed f
 
 <img src="./images/budg_lt_1000.png"/>
 
-Many samples had a budget of under 1000 dollars. Other sources with more accurate data ere sought and imputed. Although the budget data appeared on the surface to be good data, it was found that many were at at close to zero. After consideration, movies with budget values of less than 1000 dollars were researched and imputed.
+Many samples had a budget of under 1000 dollars. Other sources with more accurate data were found and imputed. Although the budget data appeared on the surface to be good data, it was found that many were at at close to zero. After consideration, movies with budget values of less than 1000 dollars were researched and imputed.
 
 <img src="./images/CorrelationMatrix.png"/>
 Early on, and as expected, the two most predictive features seemed to be budget and popularity. Later TMDB vote_count was added making the model better at predicting revenue, the target variable.
