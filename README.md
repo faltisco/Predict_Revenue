@@ -1,4 +1,4 @@
-# Predict a Movie's Revenue
+# Predicting a Movie's Revenue
 
 How can past data from The Movie Database (TMDB) help us build a predictive model of a movie's chances for success? What are the best features helping to know how profitable a movie will be? Is it always true that high budget movies have the greatest chances for yielding the highest revenue?
 
