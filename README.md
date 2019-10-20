@@ -15,11 +15,11 @@ Kaggle's Playground Prediction Competition "TMDB Box Office Prediction" closed f
 Many samples had a budget values at or near zero dollars. Other sources with more accurate data were found and imputed. Although the budget data appeared on the surface to be good data, after consideration (a movie never costs zero to produce), movies with budget values of less than 1000 dollars were researched and imputed. The $1000 level was an educated guess, a threshold that seemed logical since some films are made "on the cheap." 
 
 <img src="./images/CorrelationMatrix.png"/>
-Early on, and as expected, the two most predictive features seemed to be budget and popularity. Later TMDB vote_count was added making the model better at predicting revenue, the target variable.
+As the heat matrix above makes clear, the two most revenue "predictive" features of the train data were budget and popularity. (TMDB vote_count data was later added, and that made possible a better model, stronger at predicting the target variable.)
 
 ## Modeling
 
-As a "quick look," an OLS from statsmodels was used using the budget and runtime features it confirmed the common sense notion and from the EDA, that budget had greater predictivity than runtime. However, the model scored poorly in that its R-squared value was only 0.546. Clearly more data and a better modeling technique might be what was needed.
+As a "quick look," an OLS model from statsmodels was used using the budget and runtime features it confirmed the common sense notion and from the EDA, that budget had greater predictivity than runtime. However, the model scored poorly in that its R-squared value was only 0.546. Clearly more data and a better modeling technique might be what was needed.
 
 ## Additional Features
 
