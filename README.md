@@ -1,6 +1,6 @@
 # Predict a Movie's Revenue
 
-How can past data from The Movie Database (TMDB) help us build a predictive model of a movie's chances for success?  What are the best features helping to know how profitable a movie will be? Is it always true that high budget movies have the greatest chances for yielding the highest revenue?
+How can past data from The Movie Database (TMDB) help us build a predictive model of a movie's chances for success? What are the best features helping to know how profitable a movie will be? Is it always true that high budget movies have the greatest chances for yielding the highest revenue?
 
 In this project, the data used for this analysis is from a past Kaggle competition [here](https://www.kaggle.com/c/tmdb-box-office-prediction/data). Kaggle provides two main data files in csv format, a training and a test set. The target variable is a movie's revenue, which is omitted from the test set. After Exploratory Data Analysis (EDA), modeling will be done using two or more (as time allows) gradient boosting techniques. The end goal is a predictive model that tests well on the given testing data. 
 
